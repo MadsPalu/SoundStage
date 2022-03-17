@@ -1,0 +1,96 @@
+body {
+    background: url("bgMobil.png") no-repeat center center fixed;
+    background-size: cover;
+    margin-top: 3rem;
+    margin-left: 0%;
+}
+
+#musicVideo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15rem;
+    display: none;
+    margin-bottom: 3rem;
+}
+
+#playBtn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25rem;
+    cursor: pointer;
+    width: 50px;
+}
+
+#SoMeBox {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+#weblink {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 230px;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    margin-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SoMeIcons{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.SoMePic{
+    width: 25px;
+}
+
+.ball{
+    display: none;
+}
+  
+  @media screen and (min-width: 400px) {
+
+    .ball{
+        display: block;
+    }
+
+    body {
+        background: url("bg.png") no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    div.ball{
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+      }
+
+      #movingPic{
+          max-width: 50%;
+      }
+
+      #playBtn{
+          margin-top: 20rem;
+          width: 50px;
+      }
+
+      .SoMePic{
+          width: 40px;
+          height: 40px;
+      }
+
+      #weblink{
+          width: 350px;
+      }
+  }
